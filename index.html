@@ -15,12 +15,20 @@
         h1 {
             margin-bottom: 8px;
         }
+        .subtitle {
+            color: #555;
+            margin-bottom: 25px;
+        }
+        .links {
+            margin-top: 30px;
+        }
         .links a {
             display: inline-block;
-            margin-right: 20px;
-            margin-top: 10px;
+            margin-right: 25px;
+            margin-top: 8px;
             color: #0366d6;
             text-decoration: none;
+            font-weight: 500;
         }
         .links a:hover {
             text-decoration: underline;
@@ -29,17 +37,19 @@
 </head>
 <body>
     <h1>StereGeoBox</h1>
-    <p><strong>Real-time fish biomass estimation</strong> using YOLOv11 and geometric bounding-box correspondence.</p>
+    <p class="subtitle">Real-time fish biomass estimation using YOLOv11 and geometric bounding-box correspondence</p>
 
     <p>
-        StereGeoBox estimates fish dimensions and biomass by computing depth only inside detected bounding boxes, without requiring a full dense disparity map. This makes the method accurate, reliable, and suitable for real-time applications in aquaculture.
+        StereGeoBox is a real-time method for estimating fish dimensions and biomass in aquaculture environments. 
+        Instead of computing a full dense disparity map, it estimates depth only inside detected bounding boxes. 
+        This design improves efficiency while maintaining competitive accuracy and producing fewer outliers compared to conventional stereo and learning-based depth estimation methods.
     </p>
 
-    <p class="links">
-        <strong>Links:</strong><br>
+    <div class="links">
+        <strong>Resources:</strong><br><br>
         <a href="https://github.com/IFA-Research/StereGeoBox" target="_blank">Code (GitHub)</a>
-        <a href="#" target="_blank">Dataset (Hugging Face)</a>
+        <a href="https://huggingface.co/datasets/SanazKeshvari/TilapiaFish-Biomass" target="_blank">Dataset (Hugging Face)</a>
         <a href="#" target="_blank">Paper</a>
-    </p>
+    </div>
 </body>
 </html>
