@@ -7,7 +7,7 @@ This file explains which rows of Regression.xlsx correspond to each dataset.
    - Rows: 61 to 90
 
 2. TilapiaFish_3mo
-   - Rows: 91 to 191
+   - Rows: 91 to 190
 
 3. TilapiaFish_6mo
    - Rows: 289 to 387
