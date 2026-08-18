@@ -1,0 +1,7 @@
+# YOLO dataset config for StereGeoBox sample annotations
+path: .
+train: images
+val: images
+
+names:
+  0: fish

@@ -1,0 +1,19 @@
+Ground Truth (GT) Guide for Regression.xlsx
+===========================================
+
+This file explains which rows of Regression.xlsx correspond to each dataset.
+
+1. TilapiaFish_2mo
+   - Rows: 61 to 90
+
+2. TilapiaFish_3mo
+   - Rows: 91 to 191
+
+3. TilapiaFish_6mo
+   - Rows: 289 to 387
+
+4. TilapiaFish_15mo
+   - Rows: Last 95 samples of the file
+
+Note:
+The same Regression.xlsx file is used for all growth stages.
